@@ -13,3 +13,24 @@ img {
   height: 200px;
   width: 200px;
 }
+
+
+@media screen and (max-width: 420px) {
+  h2 {
+    text-align: center;
+  }
+  h3 {
+    text-align: center;
+  }
+  .img {
+    display:block;
+    margin: auto;
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 1000px) and (min-width: 700px){
+  body {
+    background-color: #ffe6f2;
+  }
+}
